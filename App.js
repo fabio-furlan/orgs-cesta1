@@ -1,15 +1,17 @@
-import React from 'react';
-import { StatusBar, SafeAreaView } from 'react-native';
 
-import Cesta from './src/telas /Cesta';
+import React from 'react';
+import {StatusBar,SafeAreaView } from 'react-native';
+
+import Cesta from './src/telas/Cesta';
 
 export default function App() {
-  return (
+  return(
     <SafeAreaView>
-    <StatusBar/>
-      <Cesta/>  
+      <StatusBar />
+      <Cesta />
     </SafeAreaView>
   );
 }
+
 
 
